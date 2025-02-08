@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 .p {
+    font-family: Arial;
     font-size: 16px;
     color: #3d3d3d;
 }
@@ -13,8 +13,8 @@ body {
     border-spacing: 0 20px;
     padding: 20px 0;
 }
-.table2 p {
-    font-size: inherit;
+.table2 p {/* added this so that the colour of the text in the table 2 is white 
+    but if we remove this then like color would be dark gery as told in step9 */
     color: inherit;
 }
 .box1 {
